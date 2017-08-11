@@ -1,0 +1,26 @@
+
+link_pack.png
+format: RGBA8888
+filter: Linear,MipMapLinearNearest
+repeat: none
+link1
+  rotate: false
+  xy: 1, 1
+  size: 200, 10
+  orig: 200, 10
+  offset: 0, 0
+  index: -1
+link2
+  rotate: false
+  xy: 203, 1
+  size: 200, 10
+  orig: 200, 10
+  offset: 0, 0
+  index: -1
+link3
+  rotate: false
+  xy: 405, 1
+  size: 200, 10
+  orig: 200, 10
+  offset: 0, 0
+  index: -1

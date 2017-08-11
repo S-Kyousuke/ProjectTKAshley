@@ -1,0 +1,47 @@
+
+inverter_pack.png
+format: RGBA8888
+filter: Linear,MipMapLinearNearest
+repeat: none
+in1_off
+  rotate: false
+  xy: 1, 1
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+in2_off
+  rotate: false
+  xy: 104, 1
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+in3_off
+  rotate: false
+  xy: 207, 1
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+in4_on
+  rotate: false
+  xy: 310, 1
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+in5_on
+  rotate: false
+  xy: 413, 1
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+in6_on
+  rotate: false
+  xy: 516, 1
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1

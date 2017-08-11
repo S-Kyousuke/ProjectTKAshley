@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="30" height="30" tilewidth="25" tileheight="25" backgroundcolor="#c86d05" nextobjectid="1">
+ <tileset firstgid="1" name="map" tilewidth="25" tileheight="25" spacing="2" tilecount="76">
+  <image source="map.png" width="1024" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl0EOgjAQRYuoCxMXeokioEsI3P9g/km6ME2nlOAMFF28BU3D6/RPCFMZY17KVKAAF0E60Htr5DyAqyA3cPfWyGnBA5RCDGD8eK6dk2o+gkaJk3NuxWsZGm9PDl6b4E19zxz3t7yhmmP3JOldWm9Kvr/q5Xo91v9S342/d36+XJ4puefizTVf7iw5eLlMpzJeo96ps2ztP0fT24KzEk/npJlhj3NKCI05JQQ53xOzcdQ=
+  </data>
+ </layer>
+</map>

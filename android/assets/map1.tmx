@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="50" tileheight="50" nextobjectid="8">
+ <tileset firstgid="1" name="green" tilewidth="50" tileheight="50" spacing="2" tilecount="38">
+  <image source="green_pack.png" width="1024" height="128"/>
+  <tile id="18">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="solarcell" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="39" name="ground_full" tilewidth="50" tileheight="50" spacing="2" tilecount="38">
+  <image source="ground_full.png" width="1024" height="128"/>
+  <tile id="18">
+   <properties>
+    <property name="ccontroller" value=""/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="inverter" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="77" name="tree" tilewidth="50" tileheight="50" spacing="2" tilecount="9">
+  <image source="tree_pack.png" width="512" height="64"/>
+  <tile id="8">
+   <properties>
+    <property name="battery" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="86" name="treedie2" tilewidth="50" tileheight="50" spacing="2" tilecount="9">
+  <image source="treedie2_pack.png" width="512" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="95" name="S" tilewidth="50" tileheight="50" spacing="2" tilecount="4">
+  <image source="s.png" width="256" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="s" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="s" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="s" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="s" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="99" name="I" tilewidth="50" tileheight="50" spacing="2" tilecount="4">
+  <image source="i.png" width="256" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="i" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="i" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="i" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="i" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="103" name="B" tilewidth="50" tileheight="50" spacing="2" tilecount="4">
+  <image source="b.png" width="256" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="b" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="b" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="b" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="b" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="107" name="treedie1" tilewidth="50" tileheight="50" spacing="2" tilecount="9">
+  <image source="treedie1_pack.png" width="512" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="116" name="C" tilewidth="50" tileheight="50" spacing="2" tilecount="4">
+  <image source="c.png" width="256" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="c" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="c" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="c" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="c" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzN2LERgzAMBVDvwBBwSU2DQ58N2H+TNOjun06yJCyIi1/gAr9ISEWOUsoxeGbIxJ6XM/Mf4vFFsiRG8/VkZF+mLerz9PxJ334Gfbtwbhn5GT1PQd+W3GOrnk/6sPcjzgf6qnKXdv7U/FYWyRc1Zu8XzVfLtRpm+F5C3mAhN32bEWPLZ+077sEaopEi+awZtnw0097ZpvukOkpzIvnwLPv7w3eTD2fD09se3wbh555vKWu/tPq6ntF+A76bn0Xtmm91pOWzXN5a9vi0+f5AuDmrv19HJB/avLWy6nwId1n91PrLbb0zku0jY9Si7elMn1Y7jzPi88yGZG719Wq4L2KTani3LzK/rd0s3aPt7ivz26qlNheeWLWSovlGCfl6c+d/Qz/aNtQh
+  </data>
+ </layer>
+ <layer name="ground3" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlEEOABAMBH2K/z/NSVwkSltb7CRuqsM2UiKEaChogQnWfr/dN0qvHaL7kfs4MVOaHju1qzWj/Z7vYnE2/wJ/smAhkfih5kTihvRr3J6vJatZvOCHzJh+hHQqg34VMQ==
+  </data>
+ </layer>
+ <layer name="ground2" width="40" height="30" opacity="0.9">
+  <properties>
+   <property name="solarcell" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzNl4tqwzAMRbVHB4FC9t4oG4S9fyBf0f7/98xiFtwZyZYdZ92FC0V2kpNYkl0iokNHr6Vd8EviIfjT8Fc0xubg1+C34Kvg9+DrTnzPCt82jlls6Lmjb4NPEr4peANmvlHhIyWm8S5hf4gMKF6XS/pZG1kfWRtcP42VMiwtnPytnsgn7z0tjhY+yWGv9pWcS/nmAg/n533wWRJPc1jm5Bg1Ls/75iT5OSpjmMOcIxcG39LazmmKfIPCJb+nyDckceRr4Ur5tJ7P+Ym9FedjDqf9dwlPDR9KY0u/V41zeWvxabVQYtPiHvM+dU563lp8mzjf4vPkr5dvot956+XbQmxvPNOK1fBh3nr4WLjXlp6XqmdNYF9EaeegHFM6bw1WkVW/HjbrmjX5PNfK+eyOyn3iGHyyt1n7W0++Wjb2DvhKfaInHxXGZJx7BP6/mGHsP/BpsVK+eva0tfhynDeUP4tZZ0HUacP7fUR7+CRfx4r7o1pqseb7efe0El9NLXr5etQH8q2lGjapp7/kqxHX0+OxIZz6BvpDlus=
+  </data>
+ </layer>
+ <layer name="tree" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNV0kOwzAI9B/yru6L26Y/aLr9/1JzsBQhMMaQpCNZTVwyDDjgOIb/RkT3qzTWTnyHNI4GLswH2KSxNXJqfWpsd2nsnbg9OLCtx5p4AvTdBJvzHEIYgL67YHNx9qmJt+ZduAY5xxpuTbyRuR6jD3yOHwpfGZp4rfX4bHimFC/WY9X3SuNt5ChB0if9/0nj66Slxf/S3JnjNJqbo9/huoqBjoeaa+l32piouqI4KH1U/YPdUPCnjYmqK4qD0kfV/xDK+rQ9nKorLi8eKPU0C8eU9ZvRGZ7lvl9KurV7mlWfdl3GtVeT/y60a2xZX+2eptHnsf/W7Gl95bzUNyP69UBH6Mg+8LzUN6eo36yPWlM8L/VN0Fc670r7BqePy2GP5qW+Cf6l865W3zhH3HtYC9BXOu8CpL1t6m806bwLOdDmsMavp91S+AGq6jQc
+  </data>
+ </layer>
+</map>
